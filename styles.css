@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 *,::after,::before,html{
   font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+.campaignsInner{
   color: white;
 }
 .campaign1{
