@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*,::after,::before,html{
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  color: white;
+}
+.campaign1{
+  background-color: #E16768;
+}
+.campaign2{
+  background-color: #45BBF6;
+}
+.campaign3{
+  background-color: #76C079;
+}
+.campaign4{
+  background-color: #EE5787;
+}
+.campaign5{
+  background-color: #44ADA2;
+}
+.campaign6{
+  background-color: #859AA4;
+}
+.campaign7{
+  background-color: #8A6AC6;
+}
