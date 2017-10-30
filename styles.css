@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-*,::after,::before,html{
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+html{
   box-sizing: border-box;
+  font-size: 13px;
 }
 .campaigns{
   border: rgb(221,221,221) solid 1px;
   margin-top: 10px;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 .campaignsInner{
   color: white;
@@ -34,8 +34,8 @@
 .panel{
   min-width: 230px;
   flex-grow: 1;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .campaign{
   padding: 20px;
@@ -48,4 +48,18 @@
 }
 .panel-heading{
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.fa{
+  color: #626262;
+}
+.fa-angle-up{
+  font-size: 1.25em;
+}
+.heading-actions{
+  margin-right: 10px;
+  width: 50px;
+  display: flex;
+  justify-content: space-between;
 }
