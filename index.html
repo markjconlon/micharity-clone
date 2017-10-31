@@ -10,6 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript"></script>
   </head>
   <body>
 
@@ -44,7 +45,7 @@
             </div>
 
             <div class="modal-footer">
-              <button class="btn btn-default"type="button" name="button">Close</button>
+              <button class="btn btn-default"type="button" name="button" data-dismiss="modal">Close</button>
               <button class="btn btn-primary" type="button" name="button">Add</button>
             </div>
           </form>
@@ -53,16 +54,18 @@
       </div>
     </div>
 
-    <div class="campaigns panel">
+    <div id="campaignsAll" class="campaigns panel">
       <div class="panel-heading">
         Campaign
         <div class="heading-actions">
-          <a data-toggle="modal" data-target="#addCampaign"><i class="fa fa-plus" aria-hidden="true"></i></a><i class="fa fa-angle-up" aria-hidden="true"></i>  <i class="fa fa-times" aria-hidden="true"></i>
+          <a data-toggle="modal" data-target="#addCampaign"><i class="fa fa-plus" aria-hidden="true"></i></a>
+          <a data-toggle="collapse" data-target="#campaigns"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+          <a data-toggle="collapse" data-target="#campaignsAll"><i class="fa fa-times" aria-hidden="true"></i></a>
         </div>
       </div>
 
 
-      <div class="campaignsInner panel-body">
+      <div id="campaigns" class="campaignsInner panel-body">
           <div class="row justify-content-center">
 
             <div class="panel">
