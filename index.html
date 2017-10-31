@@ -13,7 +13,7 @@
   </head>
   <body>
 
-    <div class="modal fade in" id="addCampaign">
+    <div class="modal fade" id="addCampaign">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
 
@@ -21,6 +21,27 @@
             <h1 class="text-light" id="modalTitle">Add New Campaign</h1>
             <button class="close" type="button" data-dismiss="modal" aria-label="Close">x</button>
           </div>
+
+          <form id="newCampaign">
+            <div class="modal-body">
+              <div class="row">
+                  <div class="col-sm-12">
+                      <div class="form-group form-group-lg">
+                          <label>Organization</label>
+                          <input class="form-control required" placeholder="Organization Title" type="text" name="Organization" aria-required="true">
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm-12">
+                      <div class="form-group form-group-lg">
+                          <label>Campaign Details</label>
+                          <textarea class="form-control required" placeholder="Add details ..." style="height:150px;border:1px solid #ddd;" name="details" aria-required="true"></textarea>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </form>
 
         </div>
       </div>
